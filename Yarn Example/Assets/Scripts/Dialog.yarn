@@ -1,0 +1,31 @@
+title: Start
+tags: 
+colorID: 0
+position: 792,132
+---
+Hello, how's it going today?
+
+[[ answer: It's going swell!| swell]]
+[[ answer: Actually, that's a complicated question| complicated]] 
+===
+title: swell
+tags: 
+colorID: 0
+position: 1063,397
+---
+Oh lovely! So glad to hear you're all right... After everything that happened...
+===
+title: Grandma
+tags: 
+colorID: 0
+position: 251,200
+---
+Hello deary, let me tell you all about the days of my youth
+===
+title: complicated
+tags: 
+colorID: 0
+position: 577,427
+---
+Well, I'm sorry to hear that. It do be like that sometimes.
+===
