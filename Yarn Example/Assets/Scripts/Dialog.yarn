@@ -3,29 +3,33 @@ tags:
 colorID: 0
 position: 792,132
 ---
-Hello, how's it going today?
+Hello, how's it going today? #line:05eecb0
 
-[[ answer: It's going swell!| swell]]
-[[ answer: Actually, that's a complicated question| complicated]] 
+[[It's going swell!| swell]] #line:0025b46
+[[Actually, that's a complicated question| complicated]]  #line:06a5675
 ===
+
 title: swell
-tags: 
+tags: swellTag
 colorID: 0
 position: 1063,397
 ---
-Oh lovely! So glad to hear you're all right... After everything that happened...
+Grandma: Oh lovely! So glad to hear you're all right... After everything that happened... #line:096d051
+[[screw you, grandma|Grandma]]
 ===
+
 title: Grandma
 tags: 
 colorID: 0
-position: 251,200
+position: 1184,82
 ---
-Hello deary, let me tell you all about the days of my youth
+Hello deary, let me tell you all about the days of my youth #line:03b33de
 ===
+
 title: complicated
 tags: 
 colorID: 0
 position: 577,427
 ---
-Well, I'm sorry to hear that. It do be like that sometimes.
+Well, I'm sorry to hear that. Heck yeah. #line:03dd676
 ===
