@@ -10,7 +10,7 @@ namespace Yarn.Unity {
         [SerializeField] Yarn.Unity.DialogueRunner dialogueRunner;
 
         [YarnCommand("printMeta")]
-        public void Printing()
+        public void PrintMeta()
         {
             string filepath = "data.csv";
             using (System.IO.StreamWriter file = new System.IO.StreamWriter(@filepath, true))
@@ -19,5 +19,16 @@ namespace Yarn.Unity {
                 file.WriteLine(Time.time + "," + dialogueRunner.currentNodeName);
             }
         }
+
+        public void PrintOption(string playerType)
+        {
+            string filepath = "data.csv";
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@filepath, true))
+            {
+                Debug.Log("Printing" + playerType);
+                file.WriteLine("," + playerType);
+            }
+        }
+
     }
 }
