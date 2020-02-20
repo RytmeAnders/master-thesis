@@ -26,8 +26,13 @@ namespace Yarn.Unity {
             using (System.IO.StreamWriter file = new System.IO.StreamWriter(@filepath, true))
             {
                 Debug.Log("Printing" + playerType);
-                file.WriteLine("," + playerType);
+                file.WriteLine(Time.time + "," + playerType);
             }
+        }
+
+        public void LoadQuestionnaire()
+        {
+            Application.OpenURL("https://matthewbarr.co.uk/bartle/");
         }
 
     }
