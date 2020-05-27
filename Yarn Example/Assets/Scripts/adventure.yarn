@@ -1,0 +1,83 @@
+title: Start
+tags: 
+colorID: 0
+position: 416,604
+---
+You are going to participate in a small branching narrative.
+Afterwards you will be asked to fill out a questionnaire about gameplay preferences.
+
+[[beginning]] 
+===
+title: beginning
+tags: 
+colorID: 0
+position: 415,864
+---
+You are an adventurer, finding yourself on an abandoned road in the middle of the night.
+Black pools of water stand like dark mirrors in and around the muddy roadway. Giant trees loom on both sides of the road, their branches clawing at the mist.
+You see a figure walking alone with the stride and bearing of one who knows no fear. Clad in rusty armor, it clutches a gleaming longsword in its pale hand and looks ready for a fight.
+
+[[Approach him slowly| ex001]]
+[[Draw your own sword and attack him|kill001]]
+===
+title: ex001
+tags: explorer
+colorID: 0
+position: 729,1145
+---
+Empty Text
+===
+title: kill001
+tags: killer
+colorID: 0
+position: 152,1139
+---
+You run towards the figure, sword drawn. Ghostly shadows dance amidst the clangor of blades.
+Finally, he is defeated. As he sinks to the ground, drawing his last breath, an envelope drifts out of his pocket.
+
+[[Inspect the envelope|ach001]]
+[[Call for help|social001]] 
+===
+title: ach001
+tags: achiever
+colorID: 0
+position: -514,1373
+---
+Inside the envelope is a hastily written letter. It tells of a great adventure in the nearby town.
+The daughter of the mayor has been afflicted by a great curse.
+
+[[Travel to the town| ach002]]
+[[Keep exploring the road| ex002]] 
+===
+title: social001
+tags: socializer
+colorID: 0
+position: -114,1369
+---
+Not a soul is near. It seems that the last living thing within miles died by your blade.
+Darkness closes in all around you. Perhaps there is a town nearby?
+
+[[Inspect the envelope|ach001]]
+[[Keep going down the road| exp002]] 
+===
+title: ach002
+tags: achiever
+colorID: 0
+position: -520,1639
+---
+Empty Text
+===
+title: ex002
+tags: 
+colorID: 0
+position: -845,1648
+---
+Empty Text
+===
+title: exp002
+tags: 
+colorID: 0
+position: -107,1633
+---
+Empty Text
+===

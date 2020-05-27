@@ -1,0 +1,40 @@
+fileFormatVersion: 2
+guid: fd4f648af433012489a7d6784714931f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - adventure-Start-0
+  - adventure-Start-1
+  - adventure-beginning-2
+  - adventure-beginning-3
+  - adventure-beginning-4
+  - adventure-beginning-5
+  - adventure-beginning-6
+  - adventure-ex001-7
+  - adventure-kill001-8
+  - adventure-kill001-9
+  - adventure-kill001-10
+  - adventure-kill001-11
+  - adventure-ach001-12
+  - adventure-ach001-13
+  - adventure-ach001-14
+  - adventure-ach001-15
+  - adventure-social001-16
+  - adventure-social001-17
+  - adventure-social001-18
+  - adventure-social001-19
+  - adventure-ach002-20
+  - adventure-ex002-21
+  - adventure-exp002-22
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
